@@ -1,3 +1,4 @@
+# madkudu-node
 [![CircleCI](https://circleci.com/gh/MadKudu/madkudu-node.svg?style=svg)](https://circleci.com/gh/MadKudu/madkudu-node)
 [![Code Climate](https://codeclimate.com/github/MadKudu/madkudu-node/badges/gpa.svg)](https://codeclimate.com/github/MadKudu/madkudu-node)
 
@@ -24,9 +25,9 @@ madkudu.person.find({ email: 'paul@madkudu.com' })
 ```
 
 
-# Contributing
+## Contributing
 
-## Testing
+### Test commands
 
 ```sh
 npm run test

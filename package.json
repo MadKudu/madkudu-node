@@ -1,10 +1,12 @@
 {
   "name": "madkudu",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Javascript bindings for the MadKudu API",
+  "main": "./lib/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run mocha",
+    "mocha": "./node_modules/mocha/bin/mocha --recursive test/",
+    "lint": "./node_modules/eslint/bin/eslint.js ./lib ./node_modules/eslint/bin/eslint.js ./test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,18 @@
   "bugs": {
     "url": "https://github.com/MadKudu/madkudu-node/issues"
   },
-  "homepage": "https://github.com/MadKudu/madkudu-node#readme"
+  "homepage": "https://github.com/MadKudu/madkudu-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-plugin-mocha": "^4.8.0",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2",
+    "sinon": "^1.17.7"
+  },
+  "dependencies": {
+    "debug": "^2.6.0",
+    "lodash": "^4.17.4",
+    "superagent": "^3.4.0"
+  }
 }

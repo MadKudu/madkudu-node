@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/MadKudu/madkudu-node.svg?style=svg)](https://circleci.com/gh/MadKudu/madkudu-node)
+[![Code Climate](https://codeclimate.com/github/MadKudu/madkudu-node/badges/gpa.svg)](https://codeclimate.com/github/MadKudu/madkudu-node)
+
 ## Installation
 
 ```sh
@@ -5,7 +8,7 @@ npm install --save madkudu-node
 ```
 
 ```javascript
-var madkudu = require('madkudu')('api_key');
+var madkudu = require('@madkudu/madkudu-node')('api_key');
 ```
 
 ## Persons

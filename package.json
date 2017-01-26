@@ -1,5 +1,5 @@
 {
-  "name": "madkudu",
+  "name": "@madkudu/madkudu-node",
   "version": "0.1.0",
   "description": "Javascript bindings for the MadKudu API",
   "main": "./lib/",
@@ -15,8 +15,8 @@
   "keywords": [
     "madkudu"
   ],
-  "author": "Paul Cothenet",
-  "license": "MIT",
+  "author": "MadKudu <engineering@madkudu.com>",
+  "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/MadKudu/madkudu-node/issues"
   },

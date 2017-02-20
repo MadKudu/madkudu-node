@@ -6,7 +6,7 @@
 ## Installation
 
 ```sh
-npm install --save madkudu-node
+npm install --save @madkudu/madkudu-node
 ```
 
 ```javascript

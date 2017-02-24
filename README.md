@@ -19,8 +19,16 @@ var madkudu = require('@madkudu/madkudu-node')('api_key');
 madkudu.person.find({ email: 'paul@madkudu.com' })
 	.then(person => {
 		console.log(person);
-		expect(person)
-			.to.have.include.keys('properties', 'company');
+	});
+});
+```
+
+## Persons
+
+```javascript
+madkudu.company.find({ domain: 'madkudu.com' })
+	.then(company => {
+		console.log(company);
 	});
 });
 ```
@@ -31,5 +39,5 @@ madkudu.person.find({ email: 'paul@madkudu.com' })
 ### Test commands
 
 ```sh
-npm run test
+MADKUDU_API_KEY=xxx npm test
 ```

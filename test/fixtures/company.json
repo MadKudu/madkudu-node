@@ -1,0 +1,40 @@
+{
+  "object_type": "company",
+  "domain": "madkudu.com",
+  "properties": {
+    "name": "MadKudu",
+    "domain": "madkudu.com",
+    "location": {
+    "state": "California",
+    "state_code": "CA",
+    "country": "United States",
+    "country_code": "US",
+    "tags": [
+      "english_speaking",
+      "high_gdp_per_capita"
+    ]
+  },
+  "number_of_employees": 8,
+  "industry": "Internet Software & Services",
+    "customer_fit": {
+      "segment": "medium",
+      "top_signals": [
+        {
+          "name": "Is an english-speaking country",
+          "value": true,
+          "type": "positive"
+        },
+        {
+          "name": "Is SaaS",
+          "value": true,
+          "type": "positive"
+        },
+        {
+          "name": "Employee count",
+          "value": 8,
+          "type": "negative"
+        }
+      ]
+    }
+  }
+}

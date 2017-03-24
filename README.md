@@ -3,6 +3,8 @@
 [![CircleCI](https://circleci.com/gh/MadKudu/madkudu-node.svg?style=svg)](https://circleci.com/gh/MadKudu/madkudu-node)
 [![Code Climate](https://codeclimate.com/github/MadKudu/madkudu-node/badges/gpa.svg)](https://codeclimate.com/github/MadKudu/madkudu-node)
 
+node.js bindings for the [MadKudu API](http://developers.madkudu.com/)
+
 ## Installation
 
 ```sh

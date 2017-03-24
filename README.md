@@ -23,7 +23,7 @@ madkudu.person.find({ email: 'paul@madkudu.com' })
 });
 ```
 
-## Persons
+## Companies
 
 ```javascript
 madkudu.company.find({ domain: 'madkudu.com' })

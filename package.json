@@ -1,6 +1,6 @@
 {
   "name": "@madkudu/madkudu-node",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Javascript bindings for the MadKudu API",
   "main": "./lib/",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/MadKudu/madkudu-node#readme",
   "dependencies": {
     "debug": "2.6.9",
-    "lodash": "4.17.5",
+    "lodash": "4.17.15",
     "superagent": "3.8.3"
   },
   "devDependencies": {

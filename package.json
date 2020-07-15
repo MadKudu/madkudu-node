@@ -23,7 +23,7 @@
   "homepage": "https://github.com/MadKudu/madkudu-node#readme",
   "dependencies": {
     "debug": "2.6.9",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "superagent": "3.8.3"
   },
   "devDependencies": {
